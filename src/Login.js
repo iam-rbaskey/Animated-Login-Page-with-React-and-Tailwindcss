@@ -9,7 +9,7 @@ const Login = () => {
             <Tilt>
                 <div className='container h-96 w-96 bg-white bg-opacity-20 rounded-2xl shadow-5xl relative z-2  backdrop-filter backdrop-blur-sm'>
                     <form className='h-full flex flex-col justify-evenly items-center'>
-                        <div className='text-white font-poppins text-3xl font-bold tracking-widest'>Login</div>
+                        <div className='text-white font-poppins text-3xl font-bold tracking-widest'>Login Here</div>
                         <input type='text' placeholder='username' className='font-poppins bg-transparent border border-t-0 border-l-0 border-r-0 focus:outline-none text-white tracking-wide'></input>
                         <input type='password' placeholder='password' className='font-poppins bg-transparent border border-t-0 border-l-0 border-r-0 focus:outline-none text-white tracking-wide'></input>
                         <input type='submit' className='cursor-pointer font-bold text-white hover:text-gray-900 font-poppins rounded-full px-5 py-1 bg-white bg-opacity-50 hover:bg-white hover:bg-opacity-80'></input>
